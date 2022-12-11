@@ -7,8 +7,8 @@ pip install twitter
 # on Twitter's OAuth implementation.
 import twitter 
 
-CONSUMER_KEY =''
-CONSUMER_SECRET= ''
+CONSUMER_KEY ='kzRk04Y50hL5kT7nmoMsXt8yT'
+CONSUMER_SECRET= '5KIMSPt94ZZYvbClH7TDlZWQqEAG36edllNLy9OUgi1EV7ktql'
 OAUTH_TOKEN= ''
 OAUTH_TOKEN_SECRET = ''
 
@@ -19,17 +19,6 @@ twitter_api = twitter.Twitter(auth=auth)
 # Nothing to see by displaying twitter_api except that it's now a
 # defined variable
 print twitter_api
-
-
-
-
-
-
-
-
-
-
-
 
 
 
